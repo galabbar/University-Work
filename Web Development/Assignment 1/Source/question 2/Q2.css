@@ -1,0 +1,168 @@
+/*
+* Name: Ghazi Najeeb Al-Abbar
+* ID: 2181148914
+* Assignment 1
+* File name: Q2.css
+*/
+
+body{
+
+	display: flex;
+
+	justify-content: center;
+
+	background-color: #b5338a;
+}
+
+.Account-Box{
+
+	width: 510px;
+	height: 600px;
+
+	background-color: #FAFAFA;
+
+	margin-top: 50px;
+
+	border-radius: 4px;
+}
+
+.Box-Header{
+
+	height: 10%;
+
+	background-color: lightgray;
+	color: #484848;
+
+	font-family: sans-serif;
+	font-size: 2em;
+
+	text-align: center;
+
+	border-radius: 5px;
+}
+
+.Form-Wrapper{
+
+	margin-top: 20px;
+	margin-left: 20px;
+
+	display: flex;
+}
+
+.Label-Text{
+
+	font-family: sans-serif;
+	font-size: .75em;
+
+	font-weight: bold;
+
+	color: #04ca04;
+}
+
+::placeholder{
+
+	color: lightgray;
+}
+
+.Text-Box{
+
+	padding: 3px 30px 3px 3px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+
+	border-radius: 4px;
+
+	border: 2px solid lightgray;
+}
+
+#Email{
+
+	padding: 3px 265px 3px 3px;
+	margin-bottom: 10px;
+
+	border: 2px solid lightgray;
+	border-radius: 4px;
+}
+
+.Tiny-Text-attr{
+
+	font-family: sans-serif;
+	font-size: 0.7em;
+
+	margin-bottom: 10px;
+}
+
+#selection-bar{
+
+	padding: 3px 30px 3px 3px;
+}
+
+.tiny-square{
+
+	height: 25px;
+	width: 25px;
+
+	border-radius: 4px;
+
+	color: white;
+	background-color: #04ca04;
+
+	font-family: sans-serif;
+	font-size: 0.7em;
+	font-weight: bold;
+
+	text-align: center;
+
+	padding: 5px;
+}
+
+#textarea-space{
+
+	margin-top: 10px;
+}
+
+textarea{
+
+	width: 425px;
+	height: 80px;
+}
+
+.Box-Footer{
+
+	display: flex;
+
+	align-items: flex-end;
+	flex-direction: row-reverse;
+
+	background-color: lightgray;
+
+	border-radius: 5px;
+
+	margin-top: 25px;
+
+	height: 10%;
+}
+
+#Create-Btn{
+
+	margin-bottom: 15px;
+	margin-right: 50px;
+
+	padding: 7px;
+
+	color: white;
+	background-color: #04ca04;
+
+	font-family: sans-serif;
+	font-weight: bold;
+
+	border: none;
+	border-radius: 4px;
+
+}
+
+/*td, tr, table{
+
+	border: 2px solid black;
+}
+*/

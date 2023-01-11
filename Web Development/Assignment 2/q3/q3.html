@@ -1,0 +1,55 @@
+<!--
+Name: Ghazi Najeeb Al-Abbar
+ID: 2181148914
+Assignment: 2
+File name: q3.html
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      table,
+      tr,
+      th,
+      td {
+        border: 2px solid black;
+      }
+    </style>
+    <script type="text/javascript" src="q3.js"></script>
+  </head>
+  <body>
+    <form>
+      <div id="form1">
+        <p>
+          Enter your id:
+          <input type="text" id="id1" />
+        </p>
+        <p>
+          Select the date
+          <input type="date" id="date1" />
+        </p>
+        <p>
+          Type:<br />
+          Private
+          <input type="radio" value="private" name="type1" id="type1" checked />
+          Public
+          <input type="radio" value="public" name="type1" id="type1" />
+        </p>
+        <p>
+          Price:
+          <input type="text" id="price1" />
+        </p>
+        <hr />
+      </div>
+    </form>
+    <div>
+      <button type="button" onclick="NEW()">New</button>
+      <button type="button" onclick="ADD()">Add</button>
+    </div>
+    <span>
+      <span id="pub"></span>
+      <span id="priv"></span>
+    </span>
+  </body>
+</html>

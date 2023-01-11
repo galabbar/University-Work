@@ -1,0 +1,56 @@
+<!-- 
+Name: Ghazi Najeeb Al-Abbar
+ID: 2181148914
+Assignment 3
+filename: q1.html
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      .errmsg {
+        color: red;
+        font-size: 0.75em;
+        font-family: sans-serif;
+      }
+    </style>
+    <script type="text/javascript" src="q1.js"></script>
+  </head>
+  <body>
+    <form>
+        <!-- Name -->
+        <p>
+            <label>Please enter your name</label>
+            <input type="text" placeholder="Enter your name">
+        </p>
+        <!-- Role -->
+        <p>
+            <label>Please select your role</label>
+            <select>
+                <option>Student</option>
+                <option>Faculty</option>
+                <option>Staff</option>
+            </select>
+        </p>
+        <!-- Age -->
+        <p>
+            <label>Please enter your age</label>
+            <input type="number" placeholder="Enter your age">
+        </p>
+        <!-- Email -->
+        <p>
+            <label>Please enter your Email</label>
+            <input type="text" id="email" placeholder="Enter your email">
+            <div id="email-div"></div>
+        </p>
+        <!-- Phone Number -->
+        <p>
+            <label>Please enter your phone number</label>
+            <input type="text" id="PN" placeholder="(+###)-###-####">
+            <div id="PN-div"></div>
+        </p>
+        <button type="button" onclick="Check()">Submit</button>
+    </form>
+  </body>
+</html>

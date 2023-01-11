@@ -1,0 +1,104 @@
+<!-- 
+Name: Ghazi Najeeb Al-Abbar
+ID: 2181148914
+Assignment 1
+File name: Q2.html
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Q2.css">
+</head>
+<body>
+	<div class=Account-Box>
+		<div class="Box-Header">Create Account</div>
+		<div class="Form-Wrapper">
+			<form>
+				<table>
+					<tr>
+						<td>
+							<label class="Label-Text Form-Text-Spacing">First Name*<br /></label>
+							<input type="text" placeholder="enter your first name" class="Text-Box">
+						</td>
+						<td>
+							<label class="Label-Text">Last Name<br /></label>
+							<input type="text" placeholder="enter your last name" class="Text-Box">
+						</td>
+					</tr>
+				</table>
+				<label class="Label-Text">Email*<br /></label>
+				<input type="text" placeholder="enter your email" id="Email">
+				<table>
+					<tr>
+						<td>
+							<label class="Label-Text Form-Text-Spacing">Password*<br /></label>
+							<input type="password" placeholder="enter your password" class="Text-Box">
+						</td>
+						<td>
+							<label class="Label-Text">Confirm Password*<br /></label>
+							<input type="password" placeholder="enter your password again" class="Text-Box">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label class="Label-Text Form-Text-Spacing">Gender:<br /></label>
+							<span class="Tiny-Text-attr">
+								<table>
+									<tr>
+										<td><input type="radio" name="gender">Male</td>
+										<td><input type="radio" name="gender">Female</td>
+									</tr>
+								</table>
+							</span>
+						</td>
+						<td>
+							<label class="Label-Text">Hobbies<br /></label>
+							<span class="Tiny-Text-attr">
+								<input type="checkbox">Music
+								<input type="checkbox">Sports
+								<input type="checkbox">Travel
+								<input type="checkbox">Movies
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label class="Label-Text Form-Text-Spacing">Source of Income<br /></label>
+							<select id="selection-bar">
+								<option>Employed</option>
+								<option>Inheritence Money</option>
+								<option>Other</option>
+							</select>
+						</td>
+						<td>
+							<label class="Label-Text">Income<br /></label>
+							<div>
+								<input type="range" min="0" max="20000">
+								<span class="tiny-square">20K</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label class="Label-Text Form-Text-Spacing">Upload Profile Picture<br /></label>
+							<input type="file">
+						</td>
+						<td>
+							<label class="Label-Text">Age<br /></label>
+							<input type="text" placeholder="enter your age" class="Text-Box">
+						</td>
+					</tr>
+				</table>
+				<div id="textarea-space">
+					<label class="Label-Text">Bio<br /></label>
+					<textarea></textarea>
+				</div>
+			</form>
+		</div>
+		<div class="Box-Footer">
+			<input type="submit" value="Create" id="Create-Btn">
+		</div>
+	</div>
+</body>
+</html>
