@@ -1,0 +1,12 @@
+all: inLab12
+
+inLab12: inLab12.o Trees.o
+	gcc -o inLab12 inLab12.o Trees.o
+Trees.o: Trees.c
+	gcc -c Trees.c
+
+inLab12.o: inLab12.c
+	gcc -c inLab12.c
+
+clean:
+	rm *o inLab12
