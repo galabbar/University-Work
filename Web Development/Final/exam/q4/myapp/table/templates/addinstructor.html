@@ -1,0 +1,24 @@
+<ul style="margin-bottom: 50px">
+  <li><a href="index.html">home</a></li>
+  <li><a href="addSchedule.html">add schedule</a></li>
+  <li><a href="addinstructor.html">add instructor</a></li>
+</ul>
+
+<h1>add instructor</h1>
+
+<form method="post" action="">
+  {% csrf_token %}
+  <p>
+    <label>instructor number</label>
+    <input type="text" name="num" />
+  </p>
+  <p>
+    <label>instructor name</label>
+    <input type="text" name="name" />
+  </p>
+  <p>
+    <label>experience</label>
+    <input type="text" name="exp" />
+  </p>
+  <input type="submit" name="submit" value="" />
+</form>

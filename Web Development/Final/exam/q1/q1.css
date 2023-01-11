@@ -1,0 +1,50 @@
+.list-container{
+
+    width: 150px;
+    height: 100px;
+
+    background-color: lightgray;
+}
+
+.list{
+
+    list-style: none;
+}
+
+li{
+
+    background-color: lightgray;
+    color: black;
+}
+
+li:hover{
+
+    background-color: navy;
+    color: white;
+}
+
+ul li{
+
+    position: relative;
+}
+
+.list li ul{
+
+    position: absolute;
+    min-width: 100%;
+    padding: 0;
+    left: 0;
+    display: none;
+}
+
+ul li:hover ul{
+    top: -1px;
+    left: 100px;
+    display: block;	
+    background-color: navy;
+}
+
+ul li ul li{
+    display: block;
+    background-color: lightgray;
+}

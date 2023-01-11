@@ -1,0 +1,37 @@
+<ul style="margin-bottom: 50px">
+  <li><a href="index.html">home</a></li>
+  <li><a href="addSchedule.html">add schedule</a></li>
+  <li><a href="addinstructor.html">add instructor</a></li>
+</ul>
+
+<h1>Schedule table</h1>
+<table>
+  <tr>
+    <th>course number</th>
+    <th>instructor</th>
+    <th>title</th>
+  </tr>
+  {% for x in myschedule %}
+  <tr>
+    <td>x.cnum</td>
+    <td>x.instructor</td>
+    <td>x.title</td>
+  </tr>
+  {% endfor %}
+</table>
+
+<h1>instructors table</h1>
+<table>
+  <tr>
+    <th>instructor num</th>
+    <th>name</th>
+    <th>experience</th>
+  </tr>
+  {% for x in myschedule %}
+  <tr>
+    <td>x.Inum</td>
+    <td>x.name</td>
+    <td>x.exp</td>
+  </tr>
+  {% endfor %}
+</table>
