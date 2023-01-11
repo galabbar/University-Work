@@ -1,0 +1,124 @@
+/* 
+    General Styles for all pages By Hassan
+*/
+:root {
+  --prime: #f2545b;
+  --bg: #f3f7f0;
+  --sec: #a93f55;
+  --primeDark: #19323c;
+  --secTwo: #8c5e58;
+}
+
+a {
+  color: var(--prime);
+}
+a:hover {
+  color: var(--sec);
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* 
+    login.html By Hassan
+*/
+@media (min-width: 400px) {
+  .login-form {
+    min-width: 350px;
+  }
+}
+/* animation background */
+body#login {
+  background: linear-gradient(235deg, #f2545b, #a93f55, #d59485);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 17s ease infinite;
+  animation: AnimationName 17s ease infinite;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 11% 0%;
+  }
+  50% {
+    background-position: 90% 100%;
+  }
+  100% {
+    background-position: 11% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 11% 0%;
+  }
+  50% {
+    background-position: 90% 100%;
+  }
+  100% {
+    background-position: 11% 0%;
+  }
+}
+
+/* 
+
+  Tamplate.html
+  
+*/
+body#template {
+  background-color: var(--bg);
+  height: 100vh;
+  overflow: auto;
+}
+
+body#template nav > div {
+  background-color: var(--primeDark);
+  color: white;
+}
+body#template #content {
+  height: 100vh;
+  overflow: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body#template .pageBody {
+  min-height: 70vh;
+  overflow: auto;
+}
+
+/* 
+
+  adminUsers.html & adminLogs.html By Rania
+  
+*/
+#usersTable,
+#logsTable {
+  border-style: double;
+  border-collapse: collapse;
+  border-color: #19323c;
+  padding: 3px 30px;
+  border-style: solid;
+  border-width: 1;
+}
+
+#usersChartDiv {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 2px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
